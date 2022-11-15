@@ -366,10 +366,15 @@
 -r:"Library/Bee/artifacts/1900b0aE.dag/Unity.VSCode.Editor.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aE.dag/UnityEditor.UI.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aE.dag/UnityEngine.UI.ref.dll"
+"Assets/DDSystem/Script/Character.cs"
+"Assets/DDSystem/Script/DialogBase.cs"
+"Assets/DDSystem/Script/DialogManager.cs"
+"Assets/DDSystem/Script/EmotionDrawer.cs"
 "Assets/Scripts/Gamemanager.cs"
 "Assets/Scripts/InteractableGlow.cs"
-"Assets/Scripts/Interaction.cs"
 "Assets/Scripts/Movement.cs"
+"Assets/Scripts/PlayerGrab.cs"
+"Assets/Scripts/PlayerThrow.cs"
 -langversion:9.0
 
 /deterministic

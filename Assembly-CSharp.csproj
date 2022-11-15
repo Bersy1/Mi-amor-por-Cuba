@@ -58,8 +58,16 @@
   <ItemGroup>
     <Compile Include="Assets\Scripts\Gamemanager.cs" />
     <Compile Include="Assets\Scripts\Movement.cs" />
-    <Compile Include="Assets\Scripts\Interaction.cs" />
     <Compile Include="Assets\Scripts\InteractableGlow.cs" />
+    <Compile Include="Assets\Scripts\PlayerGrab.cs" />
+    <Compile Include="Assets\Scripts\PlayerThrow.cs" />
+    <Compile Include="Assets\DDSystem\Script\DialogManager.cs" />
+    <Compile Include="Assets\DDSystem\Script\DialogBase.cs" />
+    <Compile Include="Assets\DDSystem\Script\Character.cs" />
+    <Compile Include="Assets\DDSystem\Script\EmotionDrawer.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Assets\DDSystem\Graphic\NANUM_LICENSE.txt" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
