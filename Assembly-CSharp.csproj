@@ -65,7 +65,9 @@
     <Compile Include="Assets\Scripts\Movement.cs" />
     <Compile Include="Assets\Scripts\TextToDisplay.cs" />
     <Compile Include="Assets\DDSystem\Script\DialogManager.cs" />
+    <Compile Include="Assets\Scripts\MenuButtonBehaviour.cs" />
     <Compile Include="Assets\DDSystem\Script\EmotionDrawer.cs" />
+    <Compile Include="Assets\Scripts\Interaction.cs" />
     <Compile Include="Assets\Scripts\InteractableGlow.cs" />
   </ItemGroup>
   <ItemGroup>

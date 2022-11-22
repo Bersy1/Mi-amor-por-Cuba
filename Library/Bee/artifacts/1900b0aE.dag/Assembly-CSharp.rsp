@@ -372,6 +372,8 @@
 "Assets/DDSystem/Script/EmotionDrawer.cs"
 "Assets/Scripts/Gamemanager.cs"
 "Assets/Scripts/InteractableGlow.cs"
+"Assets/Scripts/Interaction.cs"
+"Assets/Scripts/MenuButtonBehaviour.cs"
 "Assets/Scripts/Movement.cs"
 "Assets/Scripts/PlayerGrab.cs"
 "Assets/Scripts/PlayerThrow.cs"
