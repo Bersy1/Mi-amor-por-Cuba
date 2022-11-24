@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using System;
 
 public class PlayerGrab : MonoBehaviour
 {
@@ -84,8 +85,15 @@ public class PlayerGrab : MonoBehaviour
         //If player is close to gameobject with "boxplace" tag and is placing, then place the object and player is no longer holding item
         if (other.tag == "BoxPlace" && _isPlacing == true)
         {
-            gameObject.transform.Find("InteractBox").transform.position = other.gameObject.transform.position;
-            gameObject.transform.Find("InteractBox").transform.parent = null;
+            try
+            {
+                gameObject.transform.Find("InteractBox").transform.position = other.gameObject.transform.position;
+                gameObject.transform.Find("InteractBox").transform.parent = null;
+            }
+            catch (Exception)
+            {
+
+            }
             _isHoldingItem = false;
         }
     }

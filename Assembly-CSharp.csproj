@@ -69,6 +69,8 @@
     <Compile Include="Assets\DDSystem\Script\EmotionDrawer.cs" />
     <Compile Include="Assets\Scripts\Interaction.cs" />
     <Compile Include="Assets\Scripts\InteractableGlow.cs" />
+    <Compile Include="Assets\Scripts\InGamePauseButton.cs" />
+    <Compile Include="Assets\Scripts\PausedUIBehaviour.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />
