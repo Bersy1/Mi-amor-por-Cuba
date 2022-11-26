@@ -370,6 +370,7 @@
 "Assets/DDSystem/Script/DialogBase.cs"
 "Assets/DDSystem/Script/DialogManager.cs"
 "Assets/DDSystem/Script/EmotionDrawer.cs"
+"Assets/Scripts/Animation.cs"
 "Assets/Scripts/Gamemanager.cs"
 "Assets/Scripts/InGamePauseButton.cs"
 "Assets/Scripts/InteractableGlow.cs"
@@ -379,6 +380,7 @@
 "Assets/Scripts/PausedUIBehaviour.cs"
 "Assets/Scripts/PlayerGrab.cs"
 "Assets/Scripts/PlayerThrow.cs"
+"Assets/Scripts/ProtagonistaSpriteFlip.cs"
 "Assets/Scripts/ScriptableObjects/DialogueSO.cs"
 "Assets/Scripts/TextToDisplay.cs"
 -langversion:9.0

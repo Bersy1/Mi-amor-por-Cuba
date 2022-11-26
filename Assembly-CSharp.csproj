@@ -61,7 +61,9 @@
     <Compile Include="Assets\Scripts\Gamemanager.cs" />
     <Compile Include="Assets\DDSystem\Script\DialogBase.cs" />
     <Compile Include="Assets\Scripts\ScriptableObjects\DialogueSO.cs" />
+    <Compile Include="Assets\Scripts\PausedUIBehaviour.cs" />
     <Compile Include="Assets\DDSystem\Script\Character.cs" />
+    <Compile Include="Assets\Scripts\InGamePauseButton.cs" />
     <Compile Include="Assets\Scripts\Movement.cs" />
     <Compile Include="Assets\Scripts\TextToDisplay.cs" />
     <Compile Include="Assets\DDSystem\Script\DialogManager.cs" />
@@ -69,8 +71,8 @@
     <Compile Include="Assets\DDSystem\Script\EmotionDrawer.cs" />
     <Compile Include="Assets\Scripts\Interaction.cs" />
     <Compile Include="Assets\Scripts\InteractableGlow.cs" />
-    <Compile Include="Assets\Scripts\InGamePauseButton.cs" />
-    <Compile Include="Assets\Scripts\PausedUIBehaviour.cs" />
+    <Compile Include="Assets\Scripts\Animation.cs" />
+    <Compile Include="Assets\Scripts\ProtagonistaSpriteFlip.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />
