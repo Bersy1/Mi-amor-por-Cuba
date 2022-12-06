@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using System;
+using UnityEngine.UI;
 
 public class PlayerGrab : MonoBehaviour
 {
@@ -19,6 +20,10 @@ public class PlayerGrab : MonoBehaviour
     private RaycastHit _hit;
     private Renderer _renderer;
 
+    [Header("Progress slider stuff")]
+    private Slider _progressSlider;
+    private bool _hasAdded;
+
 
     private void Start()
     {
@@ -26,6 +31,9 @@ public class PlayerGrab : MonoBehaviour
         _mainCamera = Camera.main;
         _renderer = GetComponent<Renderer>();
         _heldItemPos = gameObject.transform.GetChild(0).gameObject;
+
+
+        _progressSlider = FindObjectOfType<Slider>();
     }
 
     private void Update()
@@ -77,6 +85,7 @@ public class PlayerGrab : MonoBehaviour
             other.gameObject.transform.position = _heldItemPos.transform.position;
 
             _isHoldingItem = true;
+            _hasAdded = false;
 
 
             Debug.Log("I've been interacted with");
@@ -92,6 +101,12 @@ public class PlayerGrab : MonoBehaviour
             }
             catch (Exception)
             {
+
+            }
+            if(_hasAdded == false)
+            {
+                _progressSlider.value++;
+                _hasAdded = true;
 
             }
             _isHoldingItem = false;
