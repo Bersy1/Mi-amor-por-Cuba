@@ -3,7 +3,42 @@ guid: 9ff048d178e185944a9f4d1510ec76e2
 ModelImporter:
   serializedVersion: 21300
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Madera
+    second: {fileID: 2100000, guid: a6a85c2c1bd879d4b8f0f3fd1a8a7e1d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Madera.001
+    second: {fileID: 2100000, guid: 730549b423a84ff4cbbe9f12283dca0f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material
+    second: {fileID: 2100000, guid: 791a057b4aa0cc84a93fb4ec0ab286ea, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Muros
+    second: {fileID: 2100000, guid: 8f0b4893f933e5e459f726a13bcc7e6b, type: 2}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Sin_titulo-1_1
+    second: {fileID: 2800000, guid: 77ec1e02fa6a8a1409330a050d1cb53f, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: T_Madera2
+    second: {fileID: 2800000, guid: 1d01a71311ddf1a44b94390aa37c516a, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: T_Metal1
+    second: {fileID: 2800000, guid: 8345f541694282e4fa0ea2d454d3a777, type: 3}
   materials:
     materialImportMode: 2
     materialName: 0
