@@ -374,6 +374,7 @@
 "Assets/Scripts/InteractableGlow.cs"
 "Assets/Scripts/Interaction.cs"
 "Assets/Scripts/MenuButtonBehaviour.cs"
+"Assets/Scripts/MenuManager.cs"
 "Assets/Scripts/Movement.cs"
 "Assets/Scripts/PausedUIBehaviour.cs"
 "Assets/Scripts/PlayerGrab.cs"
