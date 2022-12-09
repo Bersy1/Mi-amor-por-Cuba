@@ -372,6 +372,7 @@
 "Assets/Packages/DDSystem/Script/EmotionDrawer.cs"
 "Assets/Scripts/Animation.cs"
 "Assets/Scripts/CheckIfItemHere.cs"
+"Assets/Scripts/Cleanable.cs"
 "Assets/Scripts/Gamemanager.cs"
 "Assets/Scripts/InGamePauseButton.cs"
 "Assets/Scripts/InteractableGlow.cs"
