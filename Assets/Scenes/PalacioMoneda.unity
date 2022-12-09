@@ -549,6 +549,11 @@ MonoBehaviour:
   m_OnValueChanged:
     m_PersistentCalls:
       m_Calls: []
+--- !u!1 &52899913 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4923353105642908420, guid: a0d17f87400cd9a4db72dfe4a632f7bc, type: 3}
+  m_PrefabInstance: {fileID: 568846256}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &82970050
 GameObject:
   m_ObjectHideFlags: 0
@@ -3602,11 +3607,11 @@ PrefabInstance:
       objectReference: {fileID: 11400000, guid: 1573fbf0f9511d7448134b90247e55c9, type: 2}
     - target: {fileID: 4923353105602102305, guid: a0d17f87400cd9a4db72dfe4a632f7bc, type: 3}
       propertyPath: m_LocalScale.x
-      value: 0.81438
+      value: 1.038986
       objectReference: {fileID: 0}
     - target: {fileID: 4923353105602102305, guid: a0d17f87400cd9a4db72dfe4a632f7bc, type: 3}
       propertyPath: m_LocalScale.y
-      value: 0.81438
+      value: 0.97863024
       objectReference: {fileID: 0}
     - target: {fileID: 4923353105602102305, guid: a0d17f87400cd9a4db72dfe4a632f7bc, type: 3}
       propertyPath: m_LocalScale.z
@@ -3614,7 +3619,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4923353105602102305, guid: a0d17f87400cd9a4db72dfe4a632f7bc, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: 4.78
+      value: 4.99
       objectReference: {fileID: 0}
     - target: {fileID: 4923353105602102306, guid: a0d17f87400cd9a4db72dfe4a632f7bc, type: 3}
       propertyPath: m_text
@@ -3628,13 +3633,17 @@ PrefabInstance:
       propertyPath: m_fontSize
       value: 36
       objectReference: {fileID: 0}
+    - target: {fileID: 4923353105602102306, guid: a0d17f87400cd9a4db72dfe4a632f7bc, type: 3}
+      propertyPath: m_fontSizeMin
+      value: 5
+      objectReference: {fileID: 0}
     - target: {fileID: 4923353105642908420, guid: a0d17f87400cd9a4db72dfe4a632f7bc, type: 3}
       propertyPath: m_Name
       value: SpeechBubble
       objectReference: {fileID: 0}
     - target: {fileID: 4923353105642908421, guid: a0d17f87400cd9a4db72dfe4a632f7bc, type: 3}
       propertyPath: m_Enabled
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4923353105642908422, guid: a0d17f87400cd9a4db72dfe4a632f7bc, type: 3}
       propertyPath: m_RootOrder
@@ -3699,6 +3708,19 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 4923353105642908422, guid: a0d17f87400cd9a4db72dfe4a632f7bc, type: 3}
   m_PrefabInstance: {fileID: 568846256}
   m_PrefabAsset: {fileID: 0}
+--- !u!65 &568846258
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 52899913}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 17.747974, y: 18.82207, z: 11.067545}
+  m_Center: {x: -0.0000009536743, y: 0, z: 0}
 --- !u!1 &572040193
 GameObject:
   m_ObjectHideFlags: 0

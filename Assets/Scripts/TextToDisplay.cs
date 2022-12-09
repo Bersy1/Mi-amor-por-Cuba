@@ -19,13 +19,23 @@ public class TextToDisplay : MonoBehaviour
 
     private void Start()
     {
-        StartCoroutine(NextTextPlease());
+        //StartCoroutine(NextTextPlease());
+    }
+
+    private void OnTriggerEnter(Collider other)
+    {
+        if(other.gameObject.tag == "Player")
+        {
+            StartCoroutine(NextTextPlease());
+        }
+        GetComponent<BoxCollider>().enabled = false;
     }
 
     IEnumerator NextTextPlease()
     {
         foreach (DialogueSO DialogueText in _dialogueForThis)
         {
+            gameObject.GetComponent<SpriteRenderer>().enabled = true;
             _dialogueToDisplay.text = DialogueText._textToDisplay;
             yield return new WaitForSeconds(6f);
 

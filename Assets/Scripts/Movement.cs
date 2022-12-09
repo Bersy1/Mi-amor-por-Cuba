@@ -33,10 +33,10 @@ public class Movement : MonoBehaviour
         //    gameObject.transform.forward = move;
         //}
 
-        if (Input.GetButtonDown("Jump") /*&& groundedPlayer*/)
-        {
-            playerVelocity.y += Mathf.Sqrt(jumpHeight * -3.0f * gravityValue);
-        }
+        //if (Input.GetButtonDown("Jump") /*&& groundedPlayer*/)
+        //{
+        //    playerVelocity.y += Mathf.Sqrt(jumpHeight * -3.0f * gravityValue);
+        //}
 
         playerVelocity.y += gravityValue * Time.deltaTime;
         controller.Move(playerVelocity * Time.deltaTime);
