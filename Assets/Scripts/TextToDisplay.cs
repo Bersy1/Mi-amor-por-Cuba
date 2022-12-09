@@ -27,7 +27,7 @@ public class TextToDisplay : MonoBehaviour
         foreach (DialogueSO DialogueText in _dialogueForThis)
         {
             _dialogueToDisplay.text = DialogueText._textToDisplay;
-            yield return new WaitForSeconds(3f);
+            yield return new WaitForSeconds(6f);
 
             if (_dialogueForThis.IndexOf(DialogueText) == _dialogueForThis.Count -1)
             {

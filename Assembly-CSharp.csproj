@@ -57,6 +57,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\Scripts\PlayerThrow.cs" />
+    <Compile Include="Assets\Scripts\CheckIfItemHere.cs" />
     <Compile Include="Assets\Scripts\PlayerGrab.cs" />
     <Compile Include="Assets\Scripts\Gamemanager.cs" />
     <Compile Include="Assets\Scripts\MenuManager.cs" />
@@ -75,7 +76,6 @@
     <Compile Include="Assets\Scripts\Interaction.cs" />
     <Compile Include="Assets\Scripts\InteractableGlow.cs" />
     <Compile Include="Assets\Scripts\ProtagonistaSpriteFlip.cs" />
-    <Compile Include="Assets\Scripts\CheckIfItemHere.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\Packages\TextMesh Pro\Shaders\TMPro.cginc" />

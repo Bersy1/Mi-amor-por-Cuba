@@ -1060,7 +1060,7 @@ MonoBehaviour:
   m_Lens:
     FieldOfView: 50
     OrthographicSize: 15
-    NearClipPlane: 7.5
+    NearClipPlane: 6
     FarClipPlane: 1000
     Dutch: 0
     ModeOverride: 0
@@ -1082,8 +1082,8 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 144591543}
-  m_LocalRotation: {x: 0.28387782, y: -0.000000057544487, z: 0.000000017036477, w: 0.95886046}
-  m_LocalPosition: {x: 1.6, y: 8.24, z: -17.9}
+  m_LocalRotation: {x: 0.30446038, y: 0, z: 0, w: 0.952525}
+  m_LocalPosition: {x: 1.6, y: 9.81, z: -19.22}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -2320,7 +2320,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 393662438}
         m_TargetAssemblyTypeName: InGamePauseButton, Assembly-CSharp
-        m_MethodName: MainMenu
+        m_MethodName: Level1With1star
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -3204,7 +3204,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 474714774}
         m_TargetAssemblyTypeName: InGamePauseButton, Assembly-CSharp
-        m_MethodName: MainMenu
+        m_MethodName: Level1With3star
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -3600,6 +3600,22 @@ PrefabInstance:
       propertyPath: _dialogueForThis.Array.data[11]
       value: 
       objectReference: {fileID: 11400000, guid: 1573fbf0f9511d7448134b90247e55c9, type: 2}
+    - target: {fileID: 4923353105602102305, guid: a0d17f87400cd9a4db72dfe4a632f7bc, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0.81438
+      objectReference: {fileID: 0}
+    - target: {fileID: 4923353105602102305, guid: a0d17f87400cd9a4db72dfe4a632f7bc, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0.81438
+      objectReference: {fileID: 0}
+    - target: {fileID: 4923353105602102305, guid: a0d17f87400cd9a4db72dfe4a632f7bc, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 0.81438
+      objectReference: {fileID: 0}
+    - target: {fileID: 4923353105602102305, guid: a0d17f87400cd9a4db72dfe4a632f7bc, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 4.78
+      objectReference: {fileID: 0}
     - target: {fileID: 4923353105602102306, guid: a0d17f87400cd9a4db72dfe4a632f7bc, type: 3}
       propertyPath: m_text
       value: 
@@ -3625,16 +3641,28 @@ PrefabInstance:
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4923353105642908422, guid: a0d17f87400cd9a4db72dfe4a632f7bc, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0.35139027
+      objectReference: {fileID: 0}
+    - target: {fileID: 4923353105642908422, guid: a0d17f87400cd9a4db72dfe4a632f7bc, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0.35139027
+      objectReference: {fileID: 0}
+    - target: {fileID: 4923353105642908422, guid: a0d17f87400cd9a4db72dfe4a632f7bc, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 0.35139027
+      objectReference: {fileID: 0}
+    - target: {fileID: 4923353105642908422, guid: a0d17f87400cd9a4db72dfe4a632f7bc, type: 3}
       propertyPath: m_LocalPosition.x
       value: 1.33
       objectReference: {fileID: 0}
     - target: {fileID: 4923353105642908422, guid: a0d17f87400cd9a4db72dfe4a632f7bc, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 2.74
+      value: 2.91
       objectReference: {fileID: 0}
     - target: {fileID: 4923353105642908422, guid: a0d17f87400cd9a4db72dfe4a632f7bc, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -0.01
+      value: 0.54
       objectReference: {fileID: 0}
     - target: {fileID: 4923353105642908422, guid: a0d17f87400cd9a4db72dfe4a632f7bc, type: 3}
       propertyPath: m_LocalRotation.w
@@ -5576,7 +5604,7 @@ Camera:
     y: 0
     width: 1
     height: 1
-  near clip plane: 7.5
+  near clip plane: 6
   far clip plane: 1000
   field of view: 50
   orthographic: 0
@@ -5603,8 +5631,8 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 963194225}
-  m_LocalRotation: {x: 0.28387782, y: -0.000000057544487, z: 0.000000017036477, w: 0.95886046}
-  m_LocalPosition: {x: 1.6, y: 8.24, z: -17.9}
+  m_LocalRotation: {x: 0.30446038, y: 0, z: 0, w: 0.952525}
+  m_LocalPosition: {x: 1.6, y: 9.81, z: -19.22}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -5929,7 +5957,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_BindingMode: 4
-  m_FollowOffset: {x: 0, y: 6.49, z: -10}
+  m_FollowOffset: {x: 0, y: 8.06, z: -11.32}
   m_XDamping: 1
   m_YDamping: 1
   m_ZDamping: 1
@@ -7781,7 +7809,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 1349285691}
         m_TargetAssemblyTypeName: InGamePauseButton, Assembly-CSharp
-        m_MethodName: MainMenu
+        m_MethodName: Level1Perfect
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
