@@ -972,7 +972,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 126564529}
         m_TargetAssemblyTypeName: InGamePauseButton, Assembly-CSharp
-        m_MethodName: MainMenu
+        m_MethodName: Level1With2star
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -7141,7 +7141,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 1213779636}
         m_TargetAssemblyTypeName: InGamePauseButton, Assembly-CSharp
-        m_MethodName: MainMenu
+        m_MethodName: Level1Perfect
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -8890,7 +8890,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 1530404374}
         m_TargetAssemblyTypeName: InGamePauseButton, Assembly-CSharp
-        m_MethodName: MainMenu
+        m_MethodName: Level1With1star
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -9988,7 +9988,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 1758179717}
         m_TargetAssemblyTypeName: InGamePauseButton, Assembly-CSharp
-        m_MethodName: MainMenu
+        m_MethodName: Level1With3star
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
