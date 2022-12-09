@@ -10,6 +10,12 @@ public class Gamemanager : MonoBehaviour
     public GameObject[] interactableStuff;
     public static bool _gameIsPaused;
     private Slider _progressSlider;
+    public GameObject _lost;
+    public GameObject _nextLevel1star;
+    public GameObject _nextLevel2star;
+    public GameObject _nextLevel3star;
+    public GameObject _nextLevelPerfect;
+    public int _currentScore;
     private void Awake()
     {
         _instance = this;
@@ -23,7 +29,10 @@ public class Gamemanager : MonoBehaviour
     private void Update()
     {
         PausedGameBehaviour();
-        NextLevelPlease();
+        if(_progressSlider.value == 4)
+        {
+            Invoke("NextLevelPlease", 2f);
+        }
     }
 
     public void PausedGameBehaviour()
@@ -50,7 +59,29 @@ public class Gamemanager : MonoBehaviour
     {
         if(_progressSlider.value == 4)
         {
-            SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
+            if (_currentScore == 4)
+            {
+                _nextLevelPerfect.SetActive(true);
+            }
+            if (_currentScore == 3)
+            {
+                _nextLevel3star.SetActive(true);
+            }
+            if (_currentScore == 2)
+            {
+                _nextLevel2star.SetActive(true);
+            }
+            if (_currentScore == 1)
+            {
+                _nextLevel1star.SetActive(true);
+            }
+            if (_currentScore <= 0)
+            {
+                _lost.SetActive(true);
+            }
         }
+
+
     }
+
 }

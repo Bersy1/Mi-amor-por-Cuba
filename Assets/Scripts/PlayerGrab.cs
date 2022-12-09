@@ -61,7 +61,7 @@ public class PlayerGrab : MonoBehaviour
                 }
 
                 //if it hits an object with "interactable" tag and player is holding an item, grab the item.
-                if (_hit.transform.gameObject.tag == "Interactable" && _isHoldingItem == false)
+                if ((_hit.transform.gameObject.tag == "InteractableGood" || _hit.transform.gameObject.tag == "InteractableBad") && _isHoldingItem == false)
                 {
                     _isGrabbing = true;
                 }
@@ -79,7 +79,7 @@ public class PlayerGrab : MonoBehaviour
     private void OnTriggerStay(Collider other)
     {
         //If player is close to a gameobject with "iteractable" tag and is grabbing, then grab the item and player is holding
-        if (other.tag == "Interactable" && _isGrabbing == true)
+        if ((other.tag == "InteractableGood" || other.tag == "InteractableBad") && _isGrabbing == true)
         {
             other.gameObject.transform.parent = gameObject.transform;
             other.gameObject.transform.position = _heldItemPos.transform.position;
